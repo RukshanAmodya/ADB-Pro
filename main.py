@@ -95,6 +95,23 @@ class ADBTunnelApp(ctk.CTk):
                                       fg_color="#1abc9c", hover_color="#16a085", height=40, font=ctk.CTkFont(weight="bold"))
         self.save_btn.pack(pady=20, padx=25, fill="x")
 
+        # Copyright Section
+        self.copyright_frame = ctk.CTkFrame(self.sidebar, fg_color="transparent")
+        self.copyright_frame.pack(side="bottom", pady=20, padx=15, fill="x")
+        
+        self.cp_label = ctk.CTkLabel(self.copyright_frame, text="© 2026 QuestraX\nAll Rights Reserved", 
+                                     font=ctk.CTkFont(size=10), text_color="#555555")
+        self.cp_label.pack()
+        
+        self.yt_link = ctk.CTkLabel(self.copyright_frame, text="youtube.com/@QuestraX", 
+                                    font=ctk.CTkFont(size=10, underline=True), text_color="#3498db", cursor="hand2")
+        self.yt_link.pack(pady=(5, 0))
+        self.yt_link.bind("<Button-1>", lambda e: self.open_yt())
+
+    def open_yt(self):
+        import webbrowser
+        webbrowser.open("https://www.youtube.com/@QuestraX")
+
         # Main Content Area
         self.main_content = ctk.CTkFrame(self, corner_radius=20, fg_color="#1a1a1a", border_width=1, border_color="#2a2a2a")
         self.main_content.grid(row=0, column=1, sticky="nsew", padx=25, pady=25)

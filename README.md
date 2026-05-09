@@ -3,7 +3,7 @@
 ![ADB Pro Banner](https://img.shields.io/badge/ADB--Pro-Remote--Tunneling-blue?style=for-the-badge&logo=android)
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-black?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-All--Rights--Reserved-red?style=for-the-badge)
 
 **ADB Pro** is a high-performance, modern desktop application designed to bridge the gap between local development environments and remote Android devices. It automates the complex process of SSH reverse tunneling, allowing you to debug remote Android devices as if they were plugged directly into your local machine.
 
@@ -78,12 +78,17 @@ The output will be in the `dist/` directory.
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/RukshanAmodya/ADB-Pro/issues).
 
-## 📄 License
+## 📄 License & Copyright
 
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+**Copyright © 2026 QuestraX. All Rights Reserved.**
+
+This software is proprietary. Unauthorized copying, modification, distribution, or reverse engineering of this software, via any medium, is strictly prohibited. 
+
+For copyright inquiries and updates, please visit our official channel:
+[📺 QuestraX YouTube Channel](https://www.youtube.com/@QuestraX)
 
 ---
 
 <p align="center">
-  Developed with ❤️ by <b>Rukshan Amodya</b>
+  Developed with ❤️ by <b>QuestraX</b>
 </p>
