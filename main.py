@@ -108,10 +108,6 @@ class ADBTunnelApp(ctk.CTk):
         self.yt_link.pack(pady=(5, 0))
         self.yt_link.bind("<Button-1>", lambda e: self.open_yt())
 
-    def open_yt(self):
-        import webbrowser
-        webbrowser.open("https://www.youtube.com/@QuestraX")
-
         # Main Content Area
         self.main_content = ctk.CTkFrame(self, corner_radius=20, fg_color="#1a1a1a", border_width=1, border_color="#2a2a2a")
         self.main_content.grid(row=0, column=1, sticky="nsew", padx=25, pady=25)
@@ -150,6 +146,10 @@ class ADBTunnelApp(ctk.CTk):
         self.terminal.pack(fill="both", expand=True, padx=10, pady=10)
         self.terminal.insert("0.0", ">>> Initialize System...\n")
         self.terminal.configure(state="disabled")
+
+    def open_yt(self):
+        import webbrowser
+        webbrowser.open("https://www.youtube.com/@QuestraX")
 
     def create_setting_input(self, parent, label, default_val):
         lbl = ctk.CTkLabel(parent, text=label, font=ctk.CTkFont(size=12))
